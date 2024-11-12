@@ -1,0 +1,29 @@
+{   "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": [
+    "./**/*.ts",
+    "./**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@trpc/client": "^11.0.0-rc.621",
+    "@trpc/server": "^11.0.0-rc.621",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "express": "^4.21.1",
+    "install": "^0.13.0",
+    "prisma": "^5.22.0",
+    "typescript": "^5.6.3"
+  }
+}
